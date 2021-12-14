@@ -1,0 +1,66 @@
+/* Gabriel Ure - 12/8/2021*/
+
+body {
+    background-color: #f1f1f1;
+}
+
+body .header {
+    overflow: hidden;
+    background-color: turquoise;
+}
+
+body .header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+body .header a.active {
+    background-color: #7436ff;
+    color: white;
+}
+
+body .header a:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.lookpretty {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.lookpretty p {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.tableauPlaceholder {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+body .footer {
+    overflow: hidden;
+    background-color: turquoise;
+    text-align: center;
+    padding: 10px;
+}
+
+body .footer a {
+    float: middle;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+
+body .footer a:hover {
+    background-color: tomato;
+    color: white;
+}
